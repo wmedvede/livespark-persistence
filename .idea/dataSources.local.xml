@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL 9.4 - jpa_for_livespark@localhost" uuid="5c79bcf3-1135-4009-b24a-d511b4bfb188">
+      <secret-storage>master_key</secret-storage>
+      <user-name>livespark</user-name>
+      <schema-pattern>*.pg_catalog *.public</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+  </component>
+</project>

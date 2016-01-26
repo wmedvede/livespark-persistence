@@ -1,0 +1,18 @@
+There is a join table that is named A_B (owner name first). This join table has two foreign key
+columns. One foreign key column refers to table A and has the same type as the primary key of
+table A. The name of this foreign key column is formed as the concatenation of the following:
+the name of entity A; "_"; the name of the primary key column in table A. The other foreign
+key column refers to table B and has the same type as the primary key of table B and there is a
+unique key constraint on it. The name of this foreign key column is formed as the concatena-
+tion of the following: the name of the relationship property or field of entity A; "_"; the name
+of the primary key column in table B.
+
+
+There is a join table that is named A_B (owner name first). This join table has two foreign key
+columns. One foreign key column refers to table A and has the same type as the primary key of
+table A. The name of this foreign key column is formed as the concatenation of the following:
+the name of entity A; "_"; the name of the primary key column in table A. The other foreign
+key column refers to table B and has the same type as the primary key of table B. The name of
+this foreign key column is formed as the concatenation of the following: the name of the rela-
+tionship property or field of entity A; "_"; the name of the primary key column in table B.
+
